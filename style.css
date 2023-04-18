@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');       /*Adds Roboto font*/
+
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+a, .subtitle, .placeholder {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+
+}
+
+li {
+    display:inline-block;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+    align-items:center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.signup {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3882F6;
+    padding: 2px;
+}
+
+.top-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+    align-items:center;
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder {
+    background-color: #5a7497;
+    padding: 150px;
+}
+
+.topleft {
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    flex-wrap:wrap;
+}
