@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-a, .subtitle, .placeholder {
+a, .subtitle, .placeholder, .blue-subtitle {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -129,8 +129,7 @@ img {
     width: 150px;
     height: 150px;
     border-radius:15px;
-    border: 5px;
-    border-color: #3882F6;
+    border: 4px solid #3882F6;
 }
 
 .section-two {
@@ -166,12 +165,14 @@ img {
 .section-three {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
     padding-top: 100px;
     padding-bottom: 100px;
     align-items:center;
     background-color: #E5E7EB;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .section-three > * {
@@ -192,3 +193,71 @@ img {
     font-size: 28px;
     align-self: flex-end;
 }
+
+.blue-signup {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px;
+    border: 2px solid white;
+}
+
+
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items:space-between;
+    background-color:white;
+}
+
+.blue-box {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3882F6;
+    border-radius:15px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;;
+}
+
+
+.blue-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.copyright {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #1F2937;
+    align-items:center;
+}
+
+
+/*A great intro to web design! Really impressive and modern :) If wanted to improve, I could ensure the left and right margins are also 
+flex boxes maybe with flex 2 so grows and shrinks with window, rather than using padding. Also will help with alignment so everything
+inline on all browser sizes. This is great though! A lot better than some of the uploaded solutions :) Youve come a long way!*/
